@@ -5,14 +5,19 @@ Supply Chain Geography & Food Security
 
 ## Project description
 For this project, we plan to investigate how geographic distance from major international trade hubs affects food pricing and malnutrition rates in developing nations. We will analyze whether countries that are farther from major ports experience greater food price volatility and higher rates of undernourishment. The datasets will be sourced from the International Monetary Fund (IMF) and Food and Agriculture Organization (FAO), including indicators such as import/export values, food consumer price index (CPI), and the prevalence of undernourishment.
-Data wrangling  
+
+## Data wrangling  
 We will collect datasets from the International Monetary Fund, focusing on trade values and food-related CPI indicators, and from FAOSTAT, which provides food security metrics such as undernourishment rates. We will then clean and attempt to merge these datasets, handle missing values, and standardize country names and units to ensure consistency across sources. Additionally, we will incorporate geographic data to calculate each country's distance to the nearest major global port.
-Descriptive and exploratory analysis  
+
+## Descriptive and exploratory analysis  
 To better understand the data, we will generate descriptive statistics summarizing food price levels, trade volumes, and undernourishment rates. We will create visualizations such as maps and distribution plots to highlight regional differences in food security and trade access. These visuals will help identify potential relationships between geographic distance, trade dependency, and food pricing patterns.
-Predictive analysis  
+
+## Predictive analysis  
 We will build regression models to evaluate whether “Distance to Nearest Major Port” is a statistically significant predictor of food price volatility. Other variables such as trade volume, import dependency, and economic indicators will be considered as additional predictors. We will evaluate the model’s performance and visualize the results using scatter plots and regression lines to illustrate the relationship between geographic access to trade hubs and food price stability.
-Clustering  
+
+## Clustering  
 We will apply clustering algorithms to identify clusters or patterns in the data, such as countries with similar food price volatility, undernourishment, and/or distance from major ports. We will visualize the clustering results using methods such as scatter plots, cluster maps, and geographical maps to highlight the relationships between these variables and the geographical distribution of the given metrics, especially as they relate to the locations of major ports.
-Statistical inference  
+
+## Statistical inference  
 We will conduct statistical tests to determine whether the observed relationships between port distance, food price volatility, and undernourishment are statistically significant. The results will be presented using visual tools such as confidence interval plots or bar charts to clearly communicate findings and highlight meaningful patterns.
 Through this project, we hope to gain a better understanding of how global trade geography influences food security. By combining economic, geographic, and statistical analysis, we will use visualizations to effectively communicate insights about how supply chain accessibility may contribute to disparities in food availability and nutrition across developing countries.  
